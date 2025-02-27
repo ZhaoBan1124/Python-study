@@ -1,4 +1,12 @@
-from operator import truediv
+"""
+README
+这段代码简单介绍了
+    1.print
+    2.'''
+    3.=
+    4.if/else
+    5.type
+"""
 
 print("Hello,world!") # 输出(内容)
 
