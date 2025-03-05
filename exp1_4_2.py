@@ -1,4 +1,5 @@
 str=input('请输入一段文字：')
+
 print(str)
 print(type(str))
 x=int(input('请输入x的值：'))
