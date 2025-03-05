@@ -8,7 +8,7 @@ README
     5.type
 """
 
-print("Hello,world!") # 输出(内容)
+print("Hello,world!") #输出(内容)
 
 ''' #表示整段注释(1/2)
 print('不会输出这里的内容')
