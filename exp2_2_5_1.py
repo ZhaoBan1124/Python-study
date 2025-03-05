@@ -10,4 +10,3 @@ elif num1 < num2:
     print('是否相等：', num1 == num2)
 else:
     print('是否相等：', num1 == num2)
-
