@@ -26,3 +26,4 @@ print(5 > -4 or 0 and 'a' <= 'abc' or not 4)
 4.(True or False)
 5.(True)
 '''
+

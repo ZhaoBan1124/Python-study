@@ -6,3 +6,4 @@ elif num >= 200:
     print(0.8 * num)
 else:
     print(num)
+
