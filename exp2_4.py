@@ -1,0 +1,11 @@
+num1=int(input("请输入第1位学生的成绩："))
+num2=int(input("请输入第2位学生的成绩："))
+num3=int(input("请输入第3位学生的成绩："))
+num4=int(input("请输入第4位学生的成绩："))
+num5=int(input("请输入第5位学生的成绩："))
+num6=int(input("请输入第6位学生的成绩："))
+list=[num1,num2,num3,num4,num5,num6]
+print("6位学生的成绩为",list)
+print("最高分：",max(list))
+print("最低分：",min(list))
+# print("平均分：",(list))
