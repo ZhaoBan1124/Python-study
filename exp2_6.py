@@ -14,5 +14,3 @@ else:
     print("您的性别为：女")
 print("您的年龄为：",nian_lin)
 print("您属：",sheng_xiao[sx])
-
-#身份证：310115200711246816
