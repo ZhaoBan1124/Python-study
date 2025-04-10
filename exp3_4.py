@@ -1,3 +1,4 @@
+#P81 实战1 个税查询
 pay=eval(input('请输入月收入：'))
 pay2=pay-5000
 if pay2<=0:
