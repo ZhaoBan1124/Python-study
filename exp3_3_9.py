@@ -1,1 +1,4 @@
-#题目见书P85 实战3 红包模拟
+for i in range(1,4):
+    for j in range(1,6):
+        print("*",end="")
+    print()
