@@ -13,12 +13,16 @@ sum 求和
 len 求列表长度
 round 取小数点后几位  用法：round(num,x)，其中x表示结果保留小数点后的第x位
 append 在列表末尾添加元素  用法：list.append(obj)
-insert 在列表中指定位置插入元素  用法：list.insert(index,obj)，其中index表示索引位置
+insert 在列表中指定位置插入元素  用法：list.insert(index,obj),其中index表示索引位置
 help 系统内置的帮助系统,用于解释系统预设函数(作用和使用方法)  例：help(print),结果会输出函数的用法print(*args, sep=' ', end='\n', file=None, flush=False)
 return 表示函数的返回值(当不存在返回值时，一般仅执行函数体代码)
 format 将变量或表达式插入到字符串中
     例如：formatted_string = "string {变量或表达式1} {变量或表达式2}".format(变量或表达式1,变量或表达式2)
     又或者：formatted_string = "string {n} {m}".format(n=变量或表达式1,m=变量或表达式2)
+split 将字符串按指定分隔符拆分为字符串列表
+    用法：str.split(sep, maxsplit)
+        其中:sep表示用于分割的字符串或字符(当不指定或为None时，连续空白字符（如空格、换行\n、制表\t等）都被视为单个分隔符)
+            maxsplit表示最大的分割次数(默认为-1,无限分割)
 ==========选择结构==========
 if 条件表达式:   (单分支选择结构)
     语句块
