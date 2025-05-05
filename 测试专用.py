@@ -1,8 +1,14 @@
-text="abcdefghijk"
-print(text.split("d""f",4))
 
 
 
+
+
+
+
+
+
+# text="abcdefghijk"
+# print(text.split("d""f",4))
 
 
 
