@@ -1,5 +1,7 @@
-
-
+text="abcdefghijk"
+for i in text:
+    print(i)
+    print(type(i))
 
 
 
