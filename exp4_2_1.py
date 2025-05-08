@@ -1,28 +1,30 @@
 import math
 
 #########exp4_2_1#########
-# scores=[34,23,45,67,98,79,90,100,99,45,87,89,88]
-# fsd=[0,0,0,0,0,0]
-# fsd_name=["60以下","60到70之间","70到80之间","80到90之间","90到100之间","100分"]
-# print("成绩最高分是：",max(scores))
-# print("成绩最低分是：",min(scores))
-# print("成绩两级差是：",max(scores)-min(scores))
-# print("成绩平均分是：",round(sum(scores)/len(scores),2))
-# for i in scores:
-#     if i<60:
-#         fsd[0] += 1
-#     elif 60<=i<70:
-#         fsd[1] += 1
-#     elif 70<=i<80:
-#         fsd[2] += 1
-#     elif 80<=i<90:
-#         fsd[3] += 1
-#     elif 90<=i<100:
-#         fsd[4] += 1
-#     else:
-#         fsd[5] += 1
-# for i in range(0,len(fsd)):
-#     print("{0}的人数为{1}".format(fsd_name[i],fsd[i]))
+scores=[34,23,45,67,98,79,90,100,99,45,87,89,88]
+fsd=[0,0,0,0,0,0]
+fsd_name=["60以下","60到70之间","70到80之间","80到90之间","90到100之间","100分"]
+print("成绩最高分是：",max(scores))
+print("成绩最低分是：",min(scores))
+print("成绩两级差是：",max(scores)-min(scores))
+print("成绩平均分是：",round(sum(scores)/len(scores),2))
+for i in scores:
+    if i<60:
+        fsd[0] += 1
+    elif 60<=i<70:
+        fsd[1] += 1
+    elif 70<=i<80:
+        fsd[2] += 1
+    elif 80<=i<90:
+        fsd[3] += 1
+    elif 90<=i<100:
+        fsd[4] += 1
+    else:
+        fsd[5] += 1
+for i in range(0,len(fsd)):
+    print("{0}的人数为{1}".format(fsd_name[i],fsd[i]))
+
+print("############################")
 
 #########思考题#########
 def hanshu(a,b,c):
